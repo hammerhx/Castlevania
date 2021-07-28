@@ -1,0 +1,54 @@
+Body {background-color: black;}
+
+h1 {
+	color: red;
+}
+
+.principal {background-color: black;
+	padding: 20px;
+
+}
+
+#dracula {
+	width: 100%;
+}
+
+h2 {
+	color: red;
+}
+
+#trivia {
+	font-size: 20px;
+}
+
+h3 {
+	color: lightblue;
+	font-size: 25px;
+}
+
+p {
+	color: orange;
+}
+
+em strong {
+	color: salmon;
+}
+
+.itens {
+	font-style: italic;
+	color: white;
+}
+
+.serie {
+	background: indigo;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-right: 20%;
+}
+
+.alucard {width: 40%;}
