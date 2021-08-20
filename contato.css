@@ -1,0 +1,39 @@
+.eu {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.eu img {
+	position: relative;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+body {
+	background-color: black;
+}
+
+h2 {
+	color: red;
+	font-size: 40px;
+	font-display: block;
+	font-style: bold;
+	text-align: justify;
+}
+
+.simon {
+	width: 100px;
+	height: auto;
+}
+
+h3 {
+	color: lightblue;
+	font-size: 25px;
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+	padding: 40px 0;
+}

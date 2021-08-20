@@ -1,0 +1,103 @@
+header {
+	background-color: black;
+	padding: 20px 0;
+}
+
+.castelo {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+ color: red;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 120px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+.titulos h2 {
+	color: red;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+
+.titulos {
+	width: 950px;
+	margin: 0 auto;
+	padding:  50px 0;
+}
+
+.Console {
+	font-size: 17px;
+	font-weight: bold;
+	color: red;
+}
+
+.titulos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 3px solid white;
+	border-radius: 15px;
+}
+
+.titulos li:hover {
+	border-color: orange;
+}
+
+.titulos li:active {
+	border-color: lightblue;
+}
+
+.titulos li:hover h2 {
+	font-size: 30px;
+}
+
+footer {
+	text-align: center;
+	background:  url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+color: white;
+font-size: 13px;
+margin: 20px 0 0;
+}
