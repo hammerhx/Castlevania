@@ -1,26 +1,50 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>CONTATO</title>
 	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="contato.css">
+	<link rel="stylesheet" href="CastlevaniaStyle.css">
 </head>
 <header>
 	<div class="eu">
-	<h1><center><img src="eu.jpg"></center></h1>
-	<h2>Olá. Eu sou o criador deste HTML. Se quiser entrar em contato,
-	por favor, não faça isso. Não quero conhecer gente nova a menos que seja a Elizabeth Olsen. Obrigado pela compreensão. Espero que você ganhe na Tele-Sena.</h2>
+	<h1><center><img src="eu.png"></center></h1>
 	</header>
 	<body>
 	<main>
-</main>
-<footer>
+		<div class="principal">
+		<h4><center><img src="dados.png"></center></h4>
+		<form>
+			<div>
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+			<label for="email">E-Mail</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) x xxxx xxxx">
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+			<fieldset>
+			<legend>Como prefere que o infernizemos?</legend>
+			<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+
+			<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+
+			<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked=""> WhatsApp</label>
+
+			<input type="submit" value="Enviar Formulário" class="enviar">
+		</fieldset>
+		</div>
+	</form>
+	</main>
 		<footer>
 		<a href="Castleindex.html"><img src="simon.gif" class="simon"><h3> Voltar</h3></a>
+		<img src="caslogo.png">
 		<p class="copyright">&copy;Copyright Konami 1988, 2021</p>
-	</footer>
 	</footer>
 </body>
 </html>

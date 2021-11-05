@@ -1,5 +1,5 @@
 header {
-	background-color: black;
+	background:  url("marble.jpg");
 	padding: 20px 0;
 }
 
@@ -7,6 +7,10 @@ header {
 	position: relative;
 	width: 950px;
 	margin: 0 auto;
+}
+
+#marblelogo {
+	width: 70%;
 }
 
 body {
@@ -25,7 +29,7 @@ h1 {
 
 nav {
 	position: absolute;
-	top: 120px;
+	top: 50px;
 	right: 0;
 }
 
@@ -37,6 +41,7 @@ nav li {
 nav a {
 	text-transform: uppercase;
 	color: red;
+	text-shadow: 2px 2px black;
 	font-weight: bold;
 	font-size: 25px;
 	text-decoration: none;
@@ -84,10 +89,6 @@ nav a:hover {
 
 .titulos li:active {
 	border-color: lightblue;
-}
-
-.titulos li:hover h2 {
-	font-size: 30px;
 }
 
 footer {
